@@ -4,7 +4,7 @@ import { CREATE_EVENT } from "../actions";
 import { AppContext } from "../context/AppContext";
 
 export const EventForm = () => {
-const {state, dispatch} = useContext(AppContext)
+const {dispatch} = useContext(AppContext)
 
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
